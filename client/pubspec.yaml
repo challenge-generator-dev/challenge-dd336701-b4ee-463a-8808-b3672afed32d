@@ -1,0 +1,23 @@
+name: mobile_order_app
+description: Aplicación móvil de pedidos con backend desplegado en Terraform.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  riverpod: ^2.5.1
+  dio: ^5.4.3
+  flutter_riverpod: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
